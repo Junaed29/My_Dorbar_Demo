@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mosqueFragment">
+
+    <fragment
+        android:id="@+id/mosqueFragment"
+        android:name="com.example.mydorbardemo.fragments.MosqueFragment"
+        android:label="fragment_mosque"
+        tools:layout="@layout/fragment_mosque" />
+    <fragment
+        android:id="@+id/myDarbarFragment"
+        android:name="com.example.mydorbardemo.fragments.MyDarbarFragment"
+        android:label="fragment_my_darbar"
+        tools:layout="@layout/fragment_my_darbar" />
+    <fragment
+        android:id="@+id/pinnedFragment"
+        android:name="com.example.mydorbardemo.fragments.PinnedFragment"
+        android:label="fragment_pinned"
+        tools:layout="@layout/fragment_pinned" />
+    <fragment
+        android:id="@+id/qiblaFragment"
+        android:name="com.example.mydorbardemo.fragments.QiblaFragment"
+        android:label="fragment_qibla"
+        tools:layout="@layout/fragment_qibla" />
+</navigation>

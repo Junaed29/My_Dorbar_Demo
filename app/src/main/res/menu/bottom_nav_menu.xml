@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mosqueFragment"
+        android:icon="@drawable/ic_baseline_location"
+        android:title="Mosque Location" />
+    <item
+        android:id="@+id/qiblaFragment"
+        android:icon="@drawable/ic_qibla_compass"
+        android:title="Qibla Compass" />
+
+    <item
+        android:id="@+id/myDarbarFragment"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="My Darbar" />
+    <item
+        android:id="@+id/pinnedFragment"
+        android:icon="@drawable/ic_pinned"
+        android:title="Pinned" />
+
+    <item android:title="" />
+</menu>
